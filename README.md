@@ -7,3 +7,4 @@ MMO server for  2D or 3D indie games
 - Adding daemons for traffic handling, checking nodes condition.
 - front end process for handling client connection to the server.
 - Game logic distributor that manages non-real time aspect of the game.
+- Manage how the packet data are handled through socket(when used) between server and client, and parse data for the game clients.
