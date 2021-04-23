@@ -29,7 +29,7 @@ func main() {
 
 func checkError(err error) {
 	if err != nil {
-		fmt.Fprintf(os.Stderr,"The error is ", err.Error())
+		fmt.Fprintf(os.Stderr,"Error received: ", err.Error())
 		os.Exit(1)
 	}
 }
